@@ -1,0 +1,25 @@
+/*
+ * Created by SharpDevelop.
+ * User: Flory
+ * Date: 04/08/2016
+ * Time: 12:00 p.m.
+ * 
+ */
+using System;
+
+class Ejercicio5
+{
+    static void Main()
+    {
+        float radio;
+ 
+        Console.Write("Ingrese radio:");
+        radio = float.Parse(Console.ReadLine());
+
+        Console.WriteLine("El perimetro del circulo es {0}",3.1416 * ( radio * 2));
+        Console.Write("El area del circulo es {0}",3.1416 * radio * radio);
+        Console.ReadLine();
+    }
+}
+
+
