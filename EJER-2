@@ -1,0 +1,34 @@
+/*
+ * Created by SharpDevelop.
+ * User: Flory
+ * Date: 06/08/2016
+ * Time: 09:23 a.m.
+ * 
+ */
+	using System;
+public class triangulo
+{
+    public static void Main()
+    {
+        float num;
+        Console.Write("Indica el alto del triangulo");
+        int alto = Convert.ToInt32(
+
+                       Console.ReadLine());
+        int ancho = alto;
+        for (int a = 1; a <= alto; a++)
+        {
+
+            for (int b = 1; b <= ancho; b++)
+            
+                Console.Write("{0} ",
+                               num = alto, ancho);
+            
+            Console.WriteLine();
+            ancho = ancho - 1;
+           
+        }
+        Console.ReadLine();
+    }
+
+   }
